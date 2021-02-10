@@ -9,5 +9,5 @@ jobs:
       - uses: actions/checkout@v2
       - run: git branch | echo
       - run: |
-          echo Add other actions to build,
+          echo ${{ EXPO_ACCOUNT }}
           echo test, and deploy your project.
